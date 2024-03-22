@@ -1,3 +1,4 @@
+import React from 'react';
 // pages/index.tsx
 import Link from 'next/link';
 
@@ -8,12 +9,12 @@ const Home = () => {
       <ul>
         <li>
           <Link href="/server">
-            <a>Server</a>
+            <span>Server</span>
           </Link>
         </li>
         <li>
           <Link href="/client">
-            <a>Client</a>
+            <span>Client</span>
           </Link>
         </li>
       </ul>
